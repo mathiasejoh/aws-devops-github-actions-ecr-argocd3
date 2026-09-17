@@ -9,7 +9,7 @@ on:
 
 permissions:
   id-token: write # Needed for OIDC
-  contents: write # Needed to push commits
+  contents: read # Needed to push commits
 
 env:
   AWS_REGION: us-west-2
